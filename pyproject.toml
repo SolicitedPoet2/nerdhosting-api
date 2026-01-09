@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi[standard]>=0.115.6",
+    "hostinger-api>=0.0.19",
     "mysqlclient>=2.2.6",
     "pkgconfig>=1.5.5",
+    "proxmoxer>=2.2.0",
+    "pydantic>=2.10.4",
+    "requests>=2.32.5",
     "sqlmodel>=0.0.22",
     "websockets>=14.1",
 ]
